@@ -4,9 +4,5 @@ $header-heading-color: #fad200 !default;
 $header-bg-color: #4b4b46 !default;
 $header-bg-color-secondary: #4b4b46 !default;
 
-.page-header {
-  background-image: url("/fb-banner.png");
-}
-  
 // changes to existing css must stay above this
 @import "{{ site.theme }}";
