@@ -1,3 +1,9 @@
+---
+layout: default
+title: Runhead AC
+description: South East London's friendliest running club
+---
+
 Welcome to Runhead AC!
 
 ![image](https://user-images.githubusercontent.com/92479727/137222394-ed927d61-3417-44f0-8426-cb6a002adcb1.png)
