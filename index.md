@@ -2,6 +2,11 @@
 layout: default
 title: Runhead AC
 description: South East London's friendliest running club
+banner_links:
+  - name: Membership
+    url: https://bit.ly/runheadmembership
+  - name: Kit
+    url: https://bit.ly/runheadtshirts
 ---
 
 Welcome to Runhead AC!
@@ -9,6 +14,8 @@ Welcome to Runhead AC!
 ![image](https://user-images.githubusercontent.com/92479727/137222394-ed927d61-3417-44f0-8426-cb6a002adcb1.png)
 
 We're a friendly and inclusive running club based in South East London. We meet at the Old Nun's Head every Tuesday for a sociable ~45 minute run. There's typically around 30 to 40 runners, and we run in all weather unless there are weather warnings.
+
+Our facebook group is a great source of getting tips and hints from your fellow runners, plus contains the latest info on our runs and more!
 
 [Facebook](https://www.facebook.com/groups/runhead) / [Instagram](https://www.instagram.com/runhead.ac) / [Twitter](https://twitter.com/runheadac)
 
