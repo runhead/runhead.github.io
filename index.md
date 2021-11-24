@@ -6,7 +6,7 @@ banner_links:
   - name: Membership
     url: https://bit.ly/runheadmembership
   - name: Kit
-    url: https://bit.ly/runheadtshirts
+    url: https://bit.ly/runheadkit
 ---
 
 Welcome to Runhead AC!
@@ -53,7 +53,7 @@ Where we can, we fundraise for [Westminster House Youth Club](https://www.whyc.c
 
 ### Kit
 
-Want some snazzy kit? We've got tshirts, vests, hi-vis long sleeves, and hoodies! [Fill in our form to order kit](https://bit.ly/runheadtshirts). We send off kit orders every two months, and will contact you via email with payment details. Once the kit's arrived (normally two to three weeks after we put in the order) it'll be ready to collect next time you're down at Runhead.
+Want some snazzy kit? We've got tshirts, vests, hi-vis long sleeves, and hoodies! [Fill in our form to order kit](https://bit.ly/runheadkit). We send off kit orders every two months, and will contact you via email with payment details. Once the kit's arrived (normally two to three weeks after we put in the order) it'll be ready to collect next time you're down at Runhead.
 
 ### Staying in touch
 
