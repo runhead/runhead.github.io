@@ -4,7 +4,7 @@ title: Runhead AC
 description: South East London's friendliest running club
 banner_links:
   - name: Membership
-    url: https://bit.ly/runheadmembership
+    url: https://bit.ly/runhead-signup-form
   - name: Kit
     url: https://bit.ly/runheadkit
 ---
@@ -57,7 +57,7 @@ Want some snazzy kit? We've got tshirts, vests, hi-vis long sleeves, and hoodies
 
 ### Staying in touch
 
-[Fill in our contact details form](https://bit.ly/runheadmembership). This is super important as we collect your emergency contact details just in case the worst happens! We'll also sign you up to our infrequent mailing list containing information on Runhead trips, info on other runs, charity fundraisers, and more!
+[Fill in our contact details form](https://bit.ly/runhead-signup-form). This is super important as we collect your emergency contact details just in case the worst happens! We'll also sign you up to our infrequent mailing list containing information on Runhead trips, info on other runs, charity fundraisers, and more!
 
 ### Paid membership
 
@@ -72,4 +72,4 @@ We're an affiliated club with England Athletics, and if you want to represent Ru
 * Support your local friendly running club!
 * (Runhead also gets access to a guaranteed London Marathon place if we have enough affiliated members)
 
-If this sounds like your cup of tea, [fill in our contact details form again](https://bit.ly/runheadmembership) and at the last question, make sure you check the box to become a full member. At some point we'll add your data to England Athletics and you'll get an email with a request for payment, and that's it! You'll be a fully affiliated member. England Athletics affiliation runs april to april, but always costs the same amount so for most impact sign up in Spring.
+If this sounds like your cup of tea, [fill in our contact details form again](https://bit.ly/runhead-signup-form) and at the last question, make sure you check the box to become a full member. At some point we'll add your data to England Athletics and you'll get an email with a request for payment, and that's it! You'll be a fully affiliated member. England Athletics affiliation runs april to april, but always costs the same amount so for most impact sign up in Spring.
