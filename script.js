@@ -9,3 +9,12 @@ nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => 
   menuButton?.setAttribute('aria-expanded', 'false');
   nav.classList.remove('is-open');
 }));
+
+// Escape closes the mobile menu and returns keyboard focus to its button.
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') {
+    menuButton.setAttribute('aria-expanded', 'false');
+    nav?.classList.remove('is-open');
+    menuButton.focus();
+  }
+});
