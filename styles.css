@@ -19,9 +19,9 @@
 .site-header,.first,.about,.site-footer,.inner-hero{background-image:radial-gradient(circle,rgba(180,180,162,.17) .7px,transparent .7px);background-size:9px 9px}
 .run-card.trail{background-image:radial-gradient(circle,rgba(74,75,70,.12) .7px,transparent .7px);background-size:9px 9px}
 .footer-inner{flex-wrap:wrap}
-.footer-inner .footer-brand{display:flex;align-items:center;gap:20px;flex-wrap:nowrap;max-width:100%}
-.footer-inner .footer-motto{color:#fff;font-size:14px;margin:0;white-space:nowrap}
-.footer-links{flex:1;min-width:240px}
+.footer-inner .footer-brand{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:nowrap;width:100%}
+.footer-inner .footer-motto{color:#fff;font-size:14px;margin:0;text-align:right;white-space:nowrap}
+.footer-links{flex:1;min-width:240px;max-width:none}
 /* Darker labels retain contrast on cream and yellow backgrounds. */
 .dark-eyebrow{color:#705313}
 .section-heading h2 em,.faq h2 em{color:#856012}
@@ -35,3 +35,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 .site-footer .footer-brand .brand{color:#fff}
 .text-link,.place-card a,.site-nav .nav-join{gap:4px}
+
+.footer-links a{gap:4px}
