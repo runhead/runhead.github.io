@@ -39,3 +39,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .footer-links a{gap:4px}
 
 .button-light-outline{border:1px solid #fff;color:#fff}.button-light-outline:hover{background:#ffffff18}.hero-actions{gap:16px}.hero-actions .text-link{flex-basis:auto}
+
+.footer-inner .footer-motto{text-transform:uppercase;font-family:Manrope,Arial,sans-serif;font-weight:800;letter-spacing:.11em}
+@media(max-width:650px){.footer-inner .footer-motto{font-size:11px;letter-spacing:.04em}}
