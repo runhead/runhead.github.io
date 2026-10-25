@@ -129,3 +129,19 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .about-kit-action{margin-top:28px}
 
 .faq h2{color:var(--gold)}
+
+/* Shared hover and keyboard-focus feedback. */
+:where(.runs,.about,.inner-content) a:not(.button):is(:hover,:focus-visible){
+ color:var(--ink);background-color:var(--gold);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;border-bottom-color:currentColor;
+}
+:where(.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.button):not(.brand):not(.nav-join):is(:hover,:focus-visible){
+ color:var(--gold);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;
+}
+.button-dark:is(:hover,:focus-visible){background:var(--gold);color:var(--ink)}
+.button-light-outline:is(:hover,:focus-visible){background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.join .button-dark:is(:hover,:focus-visible),.join .button-outline:is(:hover,:focus-visible){background:#5e5f59;color:#fff}
+.menu-toggle:is(:hover,:focus-visible){background:var(--gold);color:var(--ink);border-color:var(--gold)}
+:where(.runs,.about,.inner-content,.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.brand),.menu-toggle{transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease,transform 160ms ease}
+@media(prefers-reduced-motion:reduce){
+ :where(.runs,.about,.inner-content,.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.brand),.menu-toggle{transition:none}
+}
