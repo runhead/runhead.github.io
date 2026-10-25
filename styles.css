@@ -127,3 +127,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @media(min-width:1101px){.site-nav{gap:22px}}
 
 .about-kit-action{margin-top:28px}
+
+.faq h2{color:var(--gold)}
