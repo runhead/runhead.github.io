@@ -129,3 +129,29 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .about-kit-action{margin-top:28px}
 
 .faq h2{color:var(--gold)}
+
+/* Shared hover and keyboard-focus feedback. */
+:where(.runs,.about,.inner-content) a:not(.button):is(:hover,:focus-visible){
+ color:var(--ink);background-color:transparent;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px;border-bottom-color:currentColor;
+}
+:where(.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.button):not(.brand):not(.nav-join):is(:hover,:focus-visible){
+ color:var(--gold);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;
+}
+.button-dark:is(:hover,:focus-visible){background:var(--gold);color:var(--ink)}
+.button-light-outline:is(:hover,:focus-visible){background:#ffffff18;color:#fff;border-color:#fff}
+.join .button-dark:is(:hover,:focus-visible){background:#5e5f59;color:#fff}
+.menu-toggle:is(:hover,:focus-visible){background:var(--gold);color:var(--ink);border-color:var(--gold)}
+:where(.runs,.about,.inner-content,.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.brand),.menu-toggle{transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease,transform 160ms ease}
+@media(prefers-reduced-motion:reduce){
+ :where(.runs,.about,.inner-content,.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.brand),.menu-toggle{transition:none}
+}
+
+/* Use one underline instead of combining a border and text decoration. */
+.text-link,.about-links a,.place-card a,.runs-note a,.info-note a,.faq-aside a{
+ border-bottom:0;text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:5px;
+}
+.text-link:is(:hover,:focus-visible),.about-links a:is(:hover,:focus-visible),.place-card a:is(:hover,:focus-visible),.runs-note a:is(:hover,:focus-visible),.info-note a:is(:hover,:focus-visible),.faq-aside a:is(:hover,:focus-visible){text-decoration-thickness:3px}
+
+/* Original secondary action on the yellow closing section. */
+.join .button-outline{background:transparent;color:var(--ink);border-color:var(--ink)}
+.join .button-outline:is(:hover,:focus-visible){background:#fff3b6;color:var(--ink);border-color:var(--ink)}
