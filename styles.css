@@ -132,13 +132,13 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 /* Shared hover and keyboard-focus feedback. */
 :where(.runs,.about,.inner-content) a:not(.button):is(:hover,:focus-visible){
- color:var(--ink);background-color:transparent;background-image:linear-gradient(var(--gold),var(--gold));background-repeat:no-repeat;background-size:100% 1.2em;background-position:left .1em;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px;border-bottom-color:currentColor;
+ color:var(--ink);background-color:transparent;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px;border-bottom-color:currentColor;
 }
 :where(.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.button):not(.brand):not(.nav-join):is(:hover,:focus-visible){
  color:var(--gold);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;
 }
 .button-dark:is(:hover,:focus-visible){background:var(--gold);color:var(--ink)}
-.button-light-outline:is(:hover,:focus-visible){background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.button-light-outline:is(:hover,:focus-visible){background:#ffffff18;color:#fff;border-color:#fff}
 .join .button-dark:is(:hover,:focus-visible),.join .button-outline:is(:hover,:focus-visible){background:#5e5f59;color:#fff}
 .menu-toggle:is(:hover,:focus-visible){background:var(--gold);color:var(--ink);border-color:var(--gold)}
 :where(.runs,.about,.inner-content,.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.brand),.menu-toggle{transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease,transform 160ms ease}
