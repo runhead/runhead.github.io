@@ -54,11 +54,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 /* Keep alternating backgrounds after moving the club before the FAQs. */
 .about{background:var(--paper);color:var(--ink)}
-.about h2 em{color:#856012}
+.about h2 em{color:var(--gold)}
 .about .eyebrow{color:#705313}
 .about .section-index{color:var(--ink)}
 .about-grid>div:last-child>p:not(.eyebrow){color:var(--ink)}
-.about-links a{color:#705313;border-color:currentColor}
+.about-links a{color:var(--gold);border-color:currentColor}
 .about :focus-visible{outline-color:var(--ink)}
 .faq{background-color:var(--deep);color:#fff;background-image:radial-gradient(circle,rgba(180,180,162,.17) .7px,transparent .7px);background-size:9px 9px}
 .faq .dark-eyebrow{color:var(--gold)}
