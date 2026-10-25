@@ -67,3 +67,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .faq-aside a{color:#fff}
 .faq :focus-visible{outline-color:var(--gold)}
 .about-logo{border-radius:50%}
+
+/* Remove neutral grey pixels while preserving the original yellow logo. */
+.about-logo{filter:url(#logo-remove-grey)}
