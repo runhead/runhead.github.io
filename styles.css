@@ -87,4 +87,4 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @media(max-width:650px){.site-nav{top:66px}}
 
 .runs .section-heading h2 em,.about h2 em{color:var(--ink)}
-.about-links a{color:var(--gold);border-color:currentColor}
+.about-links a{color:var(--ink);border-color:currentColor}
