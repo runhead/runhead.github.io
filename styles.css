@@ -70,3 +70,21 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 /* Remove neutral grey pixels while preserving the original yellow logo. */
 .about-logo{filter:url(#logo-remove-grey)}
+
+.hero-actions .button,.join-actions .button{width:220px;max-width:100%}
+@media(max-width:650px){.hero-actions,.join-actions{flex-direction:column;align-items:center;width:100%}.hero-actions .button,.join-actions .button{width:100%;max-width:330px}}
+
+.site-nav a{white-space:nowrap}
+.header-inner{gap:28px}
+@media(max-width:900px){
+  .menu-toggle{display:block;background:none;border:1px solid #ffffff67;color:#fff;padding:8px 10px;font-size:12px;font-weight:700;flex:none}
+  .menu-toggle span{margin-left:8px}
+  .site-nav{display:none;position:absolute;top:76px;left:0;right:0;background:var(--deep);padding:20px 18px 24px;flex-direction:column;align-items:stretch;gap:0;border-top:1px solid #ffffff33}
+  .site-nav.is-open{display:flex}
+  .site-nav a{padding:12px 4px}
+  .site-nav .nav-join{margin-top:8px;padding:12px}
+}
+@media(max-width:650px){.site-nav{top:66px}}
+
+.runs .section-heading h2 em,.about h2 em{color:var(--ink)}
+.about-links a{color:var(--ink);border-color:currentColor}
