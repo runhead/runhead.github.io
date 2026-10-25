@@ -51,3 +51,22 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .button-outline:focus-visible{background:#fff3b6}
 .faq-list summary:after{transition:transform 160ms ease;transform-origin:center}
 @media(prefers-reduced-motion:reduce){.button,.site-nav .nav-join,.faq-list summary:after{transition:none}}
+
+/* Keep alternating backgrounds after moving the club before the FAQs. */
+.about{background:var(--paper);color:var(--ink)}
+.about h2 em{color:#856012}
+.about .eyebrow{color:#705313}
+.about .section-index{color:var(--ink)}
+.about-grid>div:last-child>p:not(.eyebrow){color:var(--ink)}
+.about-links a{color:#705313;border-color:currentColor}
+.about :focus-visible{outline-color:var(--ink)}
+.faq{background-color:var(--deep);color:#fff;background-image:radial-gradient(circle,rgba(180,180,162,.17) .7px,transparent .7px);background-size:9px 9px}
+.faq .dark-eyebrow{color:var(--gold)}
+.faq-list,.faq-list details{border-color:#ffffff3d}
+.faq-list details p,.faq-aside{color:#e4e4df}
+.faq-aside a{color:#fff}
+.faq :focus-visible{outline-color:var(--gold)}
+.about-logo{border-radius:50%}
+
+/* Remove neutral grey pixels while preserving the original yellow logo. */
+.about-logo{filter:url(#logo-remove-grey)}
