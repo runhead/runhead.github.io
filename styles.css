@@ -85,3 +85,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
   .site-nav .nav-join{margin-top:8px;padding:12px}
 }
 @media(max-width:650px){.site-nav{top:66px}}
+
+.runs .section-heading h2 em,.about h2 em{color:var(--ink)}
+.about-links a{color:var(--gold);border-color:currentColor}
