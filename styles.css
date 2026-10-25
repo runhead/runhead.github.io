@@ -125,3 +125,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @media(prefers-reduced-motion:reduce){.site-nav.is-open{animation:none}}
 
 @media(min-width:1101px){.site-nav{gap:22px}}
+
+.about-kit-action{margin-top:28px}
