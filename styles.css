@@ -110,6 +110,3 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .trail-photo figcaption{padding:14px 7px;font-size:11px;font-weight:800;letter-spacing:.15em}
 
 .trail-intro-grid{align-items:center}
-.trips-join{text-align:center;margin-top:48px;padding-top:40px;border-top:1px solid var(--line)}
-.trips-join h3{font-size:30px;line-height:1.2;letter-spacing:-.035em;margin:0 0 12px}
-.trips-join p{margin:0 0 24px;font-size:17px}
