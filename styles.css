@@ -88,3 +88,17 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 .runs .section-heading h2 em,.about h2 em{color:var(--ink)}
 .about-links a{color:var(--ink);border-color:currentColor}
+
+.club-trips{margin-top:80px;padding-top:64px;border-top:1px solid var(--line)}
+.trips-intro{max-width:660px;margin-bottom:36px}
+.trips-intro .eyebrow{margin-bottom:16px}
+.trips-intro h3{font-size:clamp(30px,3.5vw,46px);line-height:1.15;letter-spacing:-.045em;margin:0 0 20px}
+.trips-intro>p:last-child{font-size:17px;line-height:1.65;margin:0}
+.trip-photos{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+.trip-photos figure{margin:0;padding:10px 10px 0;background:#e6ddc1;box-shadow:0 12px 25px #4a4b4618;transform:rotate(-1deg)}
+.trip-photos figure:nth-child(2){transform:rotate(1deg)}
+.trip-photos img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.trip-photos figcaption{padding:14px 7px;font-size:11px;font-weight:800;letter-spacing:.15em}
+.trips-note{font-size:14px;margin:32px 0 0;color:var(--ink)}
+.trips-note a{font-weight:700;text-underline-offset:4px}
+@media(max-width:650px){.club-trips{margin-top:48px;padding-top:42px}.trip-photos{grid-template-columns:1fr;gap:28px}.trips-intro{margin-bottom:28px}}
