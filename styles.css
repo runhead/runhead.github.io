@@ -110,3 +110,16 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .trail-photo figcaption{padding:14px 7px;font-size:11px;font-weight:800;letter-spacing:.15em}
 
 .trail-intro-grid{align-items:center}
+
+/* The longer navigation uses the compact menu before links become crowded. */
+@media(min-width:901px) and (max-width:1100px){
+ .menu-toggle{display:block;background:none;border:1px solid #ffffff67;color:#fff;padding:8px 10px;font-size:12px;font-weight:700;flex:none}
+ .menu-toggle span{margin-left:8px}
+ .site-nav{display:none;position:absolute;top:76px;left:0;right:0;background:var(--deep);padding:20px 18px 24px;flex-direction:column;align-items:stretch;gap:0;border-top:1px solid #ffffff33}
+ .site-nav.is-open{display:flex}
+ .site-nav a{padding:12px 4px}
+ .site-nav .nav-join{margin-top:8px;padding:12px}
+}
+@media(max-width:1100px){.site-nav.is-open{animation:menu-open 180ms ease-out both}}
+@keyframes menu-open{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.site-nav.is-open{animation:none}}
