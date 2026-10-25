@@ -139,7 +139,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 }
 .button-dark:is(:hover,:focus-visible){background:var(--gold);color:var(--ink)}
 .button-light-outline:is(:hover,:focus-visible){background:#ffffff18;color:#fff;border-color:#fff}
-.join .button-dark:is(:hover,:focus-visible),.join .button-outline:is(:hover,:focus-visible){background:#5e5f59;color:#fff}
+.join .button-dark:is(:hover,:focus-visible){background:#5e5f59;color:#fff}
 .menu-toggle:is(:hover,:focus-visible){background:var(--gold);color:var(--ink);border-color:var(--gold)}
 :where(.runs,.about,.inner-content,.site-header,.site-footer,.hero,.first,.faq,.inner-hero) a:not(.brand),.menu-toggle{transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease,transform 160ms ease}
 @media(prefers-reduced-motion:reduce){
@@ -152,6 +152,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 }
 .text-link:is(:hover,:focus-visible),.about-links a:is(:hover,:focus-visible),.place-card a:is(:hover,:focus-visible),.runs-note a:is(:hover,:focus-visible),.info-note a:is(:hover,:focus-visible),.faq-aside a:is(:hover,:focus-visible){text-decoration-thickness:3px}
 
-/* White outlined secondary action remains readable on the yellow closing section. */
-.join .button-outline{background:var(--ink);color:#fff;border-color:#fff}
-.join .button-outline:is(:hover,:focus-visible){background:#5e5f59;color:#fff;border-color:#fff}
+/* Original secondary action on the yellow closing section. */
+.join .button-outline{background:transparent;color:var(--ink);border-color:var(--ink)}
+.join .button-outline:is(:hover,:focus-visible){background:#fff3b6;color:var(--ink);border-color:var(--ink)}
