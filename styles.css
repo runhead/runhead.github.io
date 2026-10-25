@@ -102,3 +102,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .trips-note{font-size:14px;margin:32px 0 0;color:var(--ink)}
 .trips-note a{font-weight:700;text-underline-offset:4px}
 @media(max-width:650px){.club-trips{margin-top:48px;padding-top:42px}.trip-photos{grid-template-columns:1fr;gap:28px}.trips-intro{margin-bottom:28px}}
+
+.run-card .trips-card-link{align-self:flex-start;margin-top:24px;font-size:13px}
