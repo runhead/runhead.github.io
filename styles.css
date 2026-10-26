@@ -46,6 +46,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 /* Short feedback animations for interactive controls. */
 .button,.site-nav .nav-join{transition:background-color 160ms ease,color 160ms ease,transform 160ms ease}
 .button-yellow:focus-visible,.site-nav .nav-join:focus-visible{background:#ffe476}
+.site-nav .nav-join:focus-visible{color:var(--ink)}
 .button-light-outline:focus-visible{background:#ffffff18}
 .button-dark:focus-visible{background:#5e5f59}
 .button-outline:focus-visible{background:#fff3b6}
@@ -156,12 +157,9 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .join .button-outline{background:transparent;color:var(--ink);border-color:var(--ink)}
 .join .button-outline:is(:hover,:focus-visible){background:#fff3b6;color:var(--ink);border-color:var(--ink)}
 
-/* Keep button groups aligned with the left edge at every width. */
-.hero-actions,.join-actions{justify-content:flex-start;align-items:flex-start}
-.join-actions{width:100%}
-
-/* Centre the home closing actions while keeping the opening actions left-aligned. */
-.join[aria-labelledby="join-title"] .join-actions{justify-content:center;align-items:center}
+/* Keep opening actions left-aligned and centre every yellow closing section. */
+.hero-actions{justify-content:flex-start;align-items:flex-start}
+.join-actions{width:100%;justify-content:center;align-items:center}
 
 /* Circular graphics settle upright in the reading area. */
 .round-stamp{transform:none}
