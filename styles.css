@@ -162,3 +162,22 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 /* Centre the home closing actions while keeping the opening actions left-aligned. */
 .join[aria-labelledby="join-title"] .join-actions{justify-content:center;align-items:center}
+
+/* Circular graphics settle upright in the reading area. */
+.round-stamp{transform:none}
+.brand-logo,.about-logo,.round-stamp{
+ rotate:var(--scroll-rotation,0deg);
+ transform-origin:center;
+}
+@media(prefers-reduced-motion:reduce){
+ .brand-logo,.about-logo,.round-stamp{rotate:none}
+}
+
+/* Vector arrows use the link colour and cannot become emoji glyphs. */
+.external-arrow{display:inline-block;width:1em;height:1em;flex:none;vertical-align:-.12em;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+/* Match the browser's exposed page canvas to the footer on mobile. */
+html{background:var(--deep)}
+body{background:var(--deep);min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+main{background:var(--cream);flex:1}
+.site-header,.site-footer{flex-shrink:0}
