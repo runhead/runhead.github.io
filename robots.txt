@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://runhead.github.io/sitemap.xml
+Sitemap: https://runheadac.com/sitemap.xml
