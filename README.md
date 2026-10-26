@@ -1,6 +1,6 @@
 # Runhead AC website
 
-Live site: https://runhead.github.io/
+Live site: https://runheadac.com/
 
 Static HTML, CSS and JavaScript. GitHub Pages serves main from the repository root; .nojekyll disables Jekyll processing.
 
