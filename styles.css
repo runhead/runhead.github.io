@@ -197,3 +197,5 @@ main{background:var(--cream);flex:1}
  .hero-grid{min-height:560px;padding-bottom:28px}
  .hero-visual{transform:translateY(-24px) scale(1.04);transform-origin:center}
 }
+
+.run-card .monthly-run-note{margin-top:18px;font-size:14px;line-height:1.55}
