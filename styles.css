@@ -160,14 +160,14 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .hero-actions{justify-content:flex-start;align-items:flex-start}
 .join-actions{width:100%;justify-content:center;align-items:center}
 
-/* Circular graphics settle upright in the reading area. */
+/* Logos turn continuously; the slogan badge follows scroll. */
 .round-stamp{transform:none}
-.brand-logo,.about-logo,.round-stamp{
- rotate:var(--scroll-rotation,0deg);
- transform-origin:center;
-}
+.brand-logo,.about-logo,.round-stamp{transform-origin:center}
+.round-stamp{rotate:var(--scroll-rotation,0deg)}
+.brand-logo,.about-logo{animation:logo-turn 40s linear infinite}
+@keyframes logo-turn{from{rotate:0deg}to{rotate:360deg}}
 @media(prefers-reduced-motion:reduce){
- .brand-logo,.about-logo,.round-stamp{rotate:none}
+ .brand-logo,.about-logo,.round-stamp{rotate:none;animation:none}
 }
 
 /* Vector arrows use the link colour and cannot become emoji glyphs. */
