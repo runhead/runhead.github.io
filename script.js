@@ -19,10 +19,10 @@ document.addEventListener('keydown', event => {
   }
 });
 
-// Each graphic passes through upright in the reading area and keeps turning with scroll.
+// The circular slogan badge keeps its existing scroll-based rotation.
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const rotatingGraphics = Array.from(document.querySelectorAll(
-  '.brand-logo,.about-logo,.round-stamp'
+  '.round-stamp'
 ));
 let rotationFrame = null;
 const updateScrollRotation = () => {
